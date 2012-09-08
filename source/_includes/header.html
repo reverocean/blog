@@ -17,7 +17,10 @@
 </nav>
 <nav id="sub-nav" class="alignright">
 	<div class="social">
-		{% if site.facebook_user %}
+        {% if site.sina_weibo_user %}
+        <a class="sina-weibo" href="http://weibo.com/{{ site.sina_weibo_uid }}" target="_blank">微博</a>
+        {% endif %}
+        {% if site.facebook_user %}
 		<a class="facebook" href="http://www.facebook.com/{{ site.facebook_user }}" title="Facebook">Facebook</a>
 		{% endif %}
 		{% if site.googleplus_user and site.googleplus_hidden == false %}
