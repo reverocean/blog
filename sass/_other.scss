@@ -1,0 +1,19 @@
+.share-to-weibo {
+  padding-left: 1em;
+  vertical-align: middle;
+  a {
+    display: inline-block;
+    @include square(16px);
+    margin-right: 4px;
+    background: url(/images/icon.png) no-repeat 999px 999px;
+  }
+  .sina-weibo {
+    background-position: 0 0;
+  }
+  .tencent-weibo {
+    background-position: 0 -16px;
+  }
+  .twitter {
+    background-position: 0 -32px;
+  }
+}
