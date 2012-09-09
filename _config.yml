@@ -58,8 +58,8 @@ titlecase: true       # Converts page and post titles to titlecase
 # ----------------------- #
 
 #Sina Weibo
-#sina_weibo_user: reverocean@hotmail.com
-#sina_weibo_uid: 2249767451
+sina_weibo_user: reverocean@hotmail.com
+sina_weibo_uid: 2249767451
 
 # Github repositories
 github_user: reverocean
