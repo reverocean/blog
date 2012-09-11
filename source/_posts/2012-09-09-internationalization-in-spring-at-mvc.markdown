@@ -42,3 +42,6 @@ package com.apress.prospringmvc.bookstore.web.config;import org.springframework
 注意：  
 *  23行的代码**localeChangeInterceptor.setParamName("lang")**用来设置request中的参数名  
 *  一般把LocaleChangeInterceptor配置为第一个interceptor，这样即使出现什么错误，任然能够改变用户的language
+
+***
+> 本文是基于Pro Spring MVC - With Web Flow的笔记，非原创
