@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tpyes of test in Android"
+title: "Types of test in Android"
 date: 2012-09-25 15:34
 comments: true
 categories: [Android, Test]
