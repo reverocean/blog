@@ -17,7 +17,7 @@ categories: [Android, Test]
 
 ###真正的测试
 在JUnit3里，所有的以test开头的public void方法，都是Unit test。在JUnit4里使用@Test来标注哪些是Unit Tests。  
-Android提供了@SmallTest，@MediumTest和@LargeTest来给测试分类，这样你可以使用test runner来跑单独的类别。  
+Android提供了@SmallTest，@MediumTest，@LargeTest，@Smoke, @FlakyTest, @UIThreadTest和@Suppress来给测试分类，这样你可以使用test runner来跑单独的类别。  
 使用assert*  
 Android提供了MoreAsserts和ViewAsserts
 
