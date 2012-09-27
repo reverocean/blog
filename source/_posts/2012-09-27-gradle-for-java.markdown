@@ -119,4 +119,8 @@ uploadArchives {
 }
 {% endcodeblock %}
 
+#IDE插件
+apply plugin: 'eclipse'
+apply plugin: 'idea'
 
+gradle idea
