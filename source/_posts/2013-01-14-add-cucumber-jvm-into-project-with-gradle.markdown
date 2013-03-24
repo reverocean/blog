@@ -6,7 +6,7 @@ comments: true
 categories: [Gradle, Cucumber]
 ---
 
-众所周知，Cucumber是Ruby的一个用来BDD的测试框架。[Cucumber-Java](http://)则是Java版的Cucumber，它模拟Ruby里的DSL，使用Annotation创建了一套Java的BDD测试框架。Cucumber-JVM项目中只有通过ant和maven来使用Cucumber-JVM的例子，这里我记录一下Cucumber-JVM如何在Gradle里使用。
+众所周知，Cucumber是Ruby的一个用来BDD的测试框架。[Cucumber-Java](https://github.com/cucumber/cucumber-jvm)则是Java版的Cucumber，它模拟Ruby里的DSL，使用Annotation创建了一套Java的BDD测试框架。Cucumber-JVM项目中只有通过ant和maven来使用Cucumber-JVM的例子，这里我记录一下Cucumber-JVM如何在Gradle里使用。
 ##为项目引入Cucumber-JVM
 首先在build.gradle文件中加入对于Cucumber-JVM的依赖：  
 ```groovy
