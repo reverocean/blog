@@ -33,7 +33,7 @@ categories: [BigData, Hadoop]
  
  * 决定Reducer应该处理哪些key/value对（被称为partitioning）
  * 确定给Reducer的数据是被排过序的
-从下图中的例子可以看到，Mapper 1的输出cat, doc1 以及Mapper 2的输出cat, doc2，在经过Shuffle之后被汇总成cat，list(doc1, doc2)。同时，经过Sort之后，传到Reducer里的数据是按照Key排过序的（cat, chipmunk, dog, haster）
+从下图中的例子可以看到，Mapper 1的输出cat, doc1 以及Mapper 2的输出cat, doc2，在经过Shuffle之后被汇总成cat，list(doc1, doc2)。同时，经过Sort之后，传到Reducer里的数据是按照Key排过序的（cat, chipmunk, dog, haster）  
 {% img /images/hadoop/mapreduce/shuffle.jpg  %} 
 
 ##Reduce
