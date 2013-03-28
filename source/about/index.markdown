@@ -7,10 +7,10 @@ sharing: true
 footer: true
 ---
 >
-老程序员初入ThoughtWorks
+江湖人称何大壮
 ==========  
 
-{% img /images/my.JPG  %}
+
 ```
 最熟悉Java，Spring
 最喜欢Ruby，ROR
@@ -26,3 +26,4 @@ C#，Flex，Python, Django还不错
 **邮箱**：*<reverocean@gmail.com>*  
 **Skype**：*reverocean*  
 **MSN**：*reverocean@hotmail.com*  
+**微博**：*reverocean@hotmail.com*  
