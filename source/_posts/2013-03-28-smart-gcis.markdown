@@ -12,7 +12,7 @@ categories: [Java, DropWizard, Gradle]
 * smart-persistence
 * smart-match
 * smart-recommendation
-* smart-web
+* smart-web  
 其中smart-persistence提供持久层服务，我们使用Hibernate来访问Mysql；smart-match提供match功能，通过Spring-Batch调用Match引擎来匹配相同的用户；smart-recommendation为客户推荐可能要购买的产品；smart-web提供一个界面用于市场人员查看客户以及其推荐产品，同事smart-web还提供RESTd的Micro-Service。
 
 #构建脚本
