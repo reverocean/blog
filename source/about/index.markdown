@@ -24,6 +24,5 @@ C#，Flex，Python, Django还不错
 > **联系方式**
 ***  
 **邮箱**：*<reverocean@gmail.com>*  
-**Skype**：*reverocean*  
-**MSN**：*reverocean@hotmail.com*  
+**Skype**：*reverocean*   
 **微博**：*reverocean@hotmail.com*  
