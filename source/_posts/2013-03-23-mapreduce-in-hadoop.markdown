@@ -36,5 +36,7 @@ categories: [BigData, Hadoop]
 从下图中的例子可以看到，Mapper 1的输出cat, doc1 以及Mapper 2的输出cat, doc2，在经过Shuffle之后被汇总成cat，list(doc1, doc2)。同时，经过Sort之后，传到Reducer里的数据是按照Key排过序的（cat, chipmunk, dog, haster）  
 {% img /images/hadoop/mapreduce/shuffle.jpg  %} 
 
+Shuffle好理解，上面已经解释了原因，Sort又耗时又没有意义（因为对于Reduce而言，什么顺序都不会影响结果的），为什么要Sort之后才传给Reduce呢？ 经过多方查证，原来在Google的MapReduce论文里就是这样定义的，主要是Google在Reduce之后存储，要是有序的话，查询会更方便些。Hadoop在实现Google的MapReduce论文时，也实现了Sort阶段。
+
 ##Reduce
 处理经过Shuffle和Sort之后的数据，并更具需求输出一个或者多个key/value对。可以输出到HDFS上的一个文件里，也可以输出到NoSQL，或者其他任何Data Sink
