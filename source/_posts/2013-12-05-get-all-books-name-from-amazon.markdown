@@ -22,3 +22,4 @@ jQuery.noConflict();
 $('.product-title a').each(function(i, e){console.log($(e).text())})
 ```
 大功告成，书名就都输出在Console里了，拷贝出来，放到邮件即可。
+modify
