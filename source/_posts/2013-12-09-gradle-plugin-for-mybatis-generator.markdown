@@ -34,6 +34,7 @@ services.get(IsolatedAntBuilder).withClasspath(getMyBatisGeneratorClasspath()).e
             				verbose: getVerbose()) {}
 }
 {% endcodeblock %}
+ <!--more-->
 跟Ant里一样，要使用自定义的Ant任务，就必须先通过Ant的Taskdef定义一个Task，之后才能在Ant脚本里使用。同样在Gradle里也通过**ant.taskdef**来定义新的Ant任务。要定义Task，我们就需要制定从哪个classpath下去加载指定的类名*org.mybatis.generator.ant.GeneratorAntTask*。这里我们通过getMyBatisGeneratorClasspath()获得，这就需要我们在使用该Gradle Task的时候讲classpath传到Task里去，所以我们就需要定义Task的属性了。同时，大家还应该注意到这里不止一个getMyBatisGeneratorClasspath()方法，还有其他的Get方法，这些Get方法都是从Task的属性取值。我们的Task属性定义如下：  
 {% codeblock Task的属性 lang:groovy %}
 def overwrite
